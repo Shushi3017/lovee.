@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tine_Only</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+
+  <div class="landing-page">
+    <div class="question-container">
+      <p>Bati na tyo please?🥺</p>
+      <p>Gusto mo na bang magbati?</p>
+      <p>Click "Yes" kung gusto mo na, click "No" kung ayaw mo pa.</p>
+
+      <div class="button-container">
+        <button id="yes-btn" onclick="showCarousel()">Yes</button>
+        <button id="no-btn" onclick="moveNo()">No</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carousel -->
+  <div class="carousel-container">
+    <div class="carousel-slide">
+      <img src="./assets/img/12.jpg" />
+      <img src="./assets/img/2.jpg" />
+      <img src="./assets/img/download (1).jpeg" />
+      <img src="./assets/img/download.jpeg" />
+      <img src="./assets/img/IMG_20241017_075128_310.jpg" />
+      <img src="./assets/img/IMG_20241017_075143_734.jpg" />
+      <img src="./assets/img/IMG_20241025_142303_250.jpg" />
+      <img src="./assets/img/IMG_20241025_142309_484.jpg" />
+.
+      <img src="./assets/img/12.jpg" />
+      <img src="./assets/img/2.jpg" />
+      <img src="./assets/img/download (1).jpeg" />
+      <img src="./assets/img/download.jpeg" />
+      <img src="./assets/img/IMG_20241017_075128_310.jpg" />
+      <img src="./assets/img/IMG_20241017_075143_734.jpg" />
+      <img src="./assets/img/IMG_20241025_142303_250.jpg" />
+      <img src="./assets/img/IMG_20241025_142309_484.jpg" />
+    </div>
+  </div>
+
+  <!-- Button Gallery -->
+  <div class="button-gallery" id="button-gallery">
+    <button onclick="showFlip('../assets/img/12.jpg', 'Kita mo to? eto yung hinahatid niyo papuntang mcdo ba yun kung saan man yun alam ang saya saya ko kasi nakita ulit kita dito ang saya lang kasi nakasama ko yung bebe ko ulet alam mo yun after nang ilang linggo na ano eh di kita nakasama basta palagi kitang miss na miss bii tanadaan mo kaya ko to ginawa  dahil mahal kita at mahalaga ka po i loveyou sooo muchhh!')">Show 1</button>
+    <button onclick="showFlip('../assets/img/2.jpg', 'Alam mo ang cute cute mo dito ikaw lang yung baby ko na cute na kahit na galit padin sakin eh gustong gusto ko padin kahit anong mangyari ikaw padin ang baby ko ah sana ako padin ang baby mo kahit anong mangyari')">Show 2</button>
+    <button onclick="showFlip('../assets/img/download.jpeg', 'Ang super latina mo dito bi ang ganda ganda mo na ang bait bait mo pa sana mapatawad mo sa mga nagawa kong kasalanan ah sana masaya ka sa mga ginagawa ko na ganito kahit malayo tyo ngayun eh promise ko sayo is promise po i loveyouuuu')">Show 3</button>
+    <a href="https://zake07.github.io/tinee/" target="_blank" style="text-decoration: none;">
+      <button>Visit!</button>
+</a>
+    </button>
+    <button onclick="showFlip('../assets/img/IMG_20241017_075128_310.jpg', 'Sana makasama kita sa mga ganitong moments na masaya tayong dalawa sana hindi na tayo nag away away pa')">Show 4</button>
+    <p>so ayun hiii wellcome kung naka pasok ka dito at hindi kana galit sana mapatawawd mo ko sa kasalanan ko alam koo palagi mo kong pinag bibigyan at pinag papasensiyahan at inuunawa lahat lahat alam mo apaka thankful ko sayo kasi meron akong babaeng nag mamahal sakin at kaya akong ipag laban at kaya akong mahalin nang buo kahit anong itsura ko pero any way alam mo ang swerte swerte ko sayo kasiii meron taong kaya akong alagaan at kaya akong mahalin nang ganito kahit ganito ang ugali ko sana di ka mag sawa nandto lang ako palagi bii ah sa tabi mo never akong aalis kahit  ano ang iyong nararamdaman or kahit maging ano mahal na mahal kitaa i loveyouuu so muchhhhh biii</p>
+    </button>
+  </div>
+
+  <!-- Flip Card -->
+  <div class="reveal-container" id="reveal">
+    <div class="flip-card" id="flipCard">
+      <div class="front" id="cardFront"></div>
+      <div class="back" id="cardBack"></div>
+    </div>
+  </div>
+
+  <!-- Audio -->
+
+  <audio id="bg-music" src="./assets/img/video ni tine/Gigi Perez - Sailor Song (Lyrics).mp3" preload="auto"></audio>
+
+  <script src="./assets/js/script.js"> </script>
+</body>
+</html>
